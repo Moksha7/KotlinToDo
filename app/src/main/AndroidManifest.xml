@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinToDo"
         tools:ignore="AllowBackup">
-        <activity android:name="com.example.kotlintodo.ui.MainActivity">
+        <activity
+            android:name="com.example.kotlintodo.ui.MainActivity"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

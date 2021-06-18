@@ -7,8 +7,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.kotlintodo.data.Task
 import com.example.kotlintodo.data.TaskDao
-import com.example.kotlintodo.ui.ADD_TASK_RESULT_OK
-import com.example.kotlintodo.ui.EDIT_TASK_RESULT_OK
+import com.example.kotlintodo.util.ADD_TASK_RESULT_OK
+import com.example.kotlintodo.util.EDIT_TASK_RESULT_OK
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
